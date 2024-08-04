@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <title>Em busca do batman capivara</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h1>Uma Jornada!</h1>
+            <img src="amigos.jpg" alt="">
+            <p>Você e seu amigo cão Robbin, estavam a procura do seu parceiro Batman capivara, mas não tinham ideia aonde ele poderia estar. Então decidiram sair por ai a procura dele.</p>
+            <p>"Escolha uma direção:</p>
+            <button class="btn-proximo" data-proximo="1">Direita</button>
+            <button class="btn-proximo" data-proximo="2">Esquerda</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você e seu amigo viraram a Direita, e encontrou o Maskeico da quebrada!</p>
+            <p>Maskeico disse a vocês que para encontrar o Batman capivara, precisariam ir para a esquerda e falar com o cão trabalhador.</p>
+            <img src="maskeico.jpg" alt="">
+            <button class="btn-proximo" data-proximo="3">Virar a Esquerda</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e comer um banquete.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você e seu amigo viraram a Esquerda, e encontrou o Cão Trabalhador!</p>
+            <p>O cão trabalhador disse a vocês que havia visto o Batamn capivara entre a Lagoa ou na Estrada, porém que não se recorda.</p>
+            <img src="trabalhador.jpg" alt="">
+            <p>Escolha um lugar:</p>
+            <button class="btn-proximo" data-proximo="5">Ir até a lagoa</button>
+            <button class="btn-proximo" data-proximo="6">Ir até a estrada</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você e seu amigo viraram a Esquerda, e encontrou o Cão Trabalhador!</p>
+            <p>O cão trabalhador disse a vocês que havia visto o Batamn capivara entre a Lagoa ou na Estrada, porém que não se recorda.</p>
+            <img src="trabalhador.jpg" alt="">
+            <p>Escolha um lugar:</p>
+            <button class="btn-proximo" data-proximo="5">Ir até a lagoa</button>
+            <button class="btn-proximo" data-proximo="6">Ir até a estrada</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <h1>VOCÊ FALHOU!</h1>
+            <img src="Ff.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>O banquete era falso e só mostrou não ser um amigo digno.</p>
+            <p>> Você perdeu a amizade com Robbin.</p>
+            <p>> Não foi capaz de encontrar o Batman Capivara.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <h1>Final feliz!</h1>
+            <p>Vocês foram até a lagoa, e parabéns!</p>
+            <img src="capivara.jpg" alt="">
+            <p> >Foram capazes de encontrar o Batman capivara!</p>
+            <p>Não fizeram mais que sua obrigação! >:( </p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Vocês foram até a estrada, porém não encontraram nada por ali.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a lagoa.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Caminharam até a lagoa</p>
+            <button class="btn-proximo" data-proximo="9">Seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <h1>Final feliz!</h1>
+            <p>Vocês foram até a lagoa, e parabéns!</p>
+            <img src="capivara.jpg" alt="">
+            <p> >Foram capazes de encontrar o Batman capivara!</p>
+            <p>Não fizeram mais que sua obrigação! >:( </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
